@@ -11,12 +11,12 @@ int main() {
         for( j = 2 ; j < i ; j++ ) {
             if( i % j == 0 ) {
                 จำนวนเฉพาะ = 0 ;
-            }
-        }
+            }//end if
+        }//end for
         if( จำนวนเฉพาะ ) {
             printf( "%d ", i ) ; 
         }
-    }
+    }//end for
 
     return 0 ;
-}
+}//end function 

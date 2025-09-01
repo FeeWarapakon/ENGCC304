@@ -13,14 +13,14 @@ int main() {
         while( j < i  ) {
             if( i % j == 0 ) {
                 จำนวนเฉพาะ = 0 ;
-            }
+            }//end if
             j++ ;
-        }
+        }//end while
         if( จำนวนเฉพาะ ) {
             printf( "%d ", i ) ; 
-        }
+        }//end if
         i-- ;
-    }
+    }//end while
 
     return 0 ;
-}
+}//end function
