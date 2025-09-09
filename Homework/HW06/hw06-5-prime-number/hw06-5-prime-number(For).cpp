@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int num , i , j , จำนวนเฉพาะ ;
+    int num , i , j , x ;
 
     printf( "กรุณาใส่ตัวเลข: " ) ;
     scanf( "%d" , &num ) ;
 
     for( i = num ; i >= 2 ; i-- ) {
-        จำนวนเฉพาะ = 1 ; 
+        x = 1 ; 
         for( j = 2 ; j < i ; j++ ) {
             if( i % j == 0 ) {
-                จำนวนเฉพาะ = 0 ;
+                x = 0 ;
             }//end if
         }//end for
-        if( จำนวนเฉพาะ ) {
+        if( x ) {
             printf( "%d ", i ) ; 
         }
     }//end for

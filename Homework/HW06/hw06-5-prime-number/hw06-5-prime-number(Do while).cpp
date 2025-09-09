@@ -1,23 +1,23 @@
 #include <stdio.h>
 
 int main() {
-    int num , i , j , จำนวนเฉพาะ ;
+    int i , j , x ;
 
     printf( "กรุณาใส่ตัวเลข: " ) ;
-    scanf( "%d" , &num ) ;
-    i = num ;
+    scanf( "%d" , &i ) ;
+    
     
     do{
-        จำนวนเฉพาะ = 1 ;
+        x = 1 ;
         j = 2 ;
         do{
             if( j < i && i % j == 0 ) {
-                จำนวนเฉพาะ = 0 ;
+                x = 0 ;
             }// end if
             j++ ;
         } while ( j < i ) ;
 
-        if( จำนวนเฉพาะ && i >= 2 ) {
+        if(x && i >= 2 ) {
             printf( "%d ", i ) ;
         }
 
