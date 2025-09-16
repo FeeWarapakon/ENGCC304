@@ -14,12 +14,12 @@ int main () {
     for ( int i = 0 ; i < N ; i++ ) {
         printf( "Enter value[%d] : ", i ) ;
         scanf( "%d", &value[i] ) ;   
-    }
+    } // end for
 
     printf( "Index :\t" ) ;
     for ( int i = 0 ; i < N ; i++ ) {
         printf( "%d\t", i ) ;
-    } 
+    } // end for
     printf( "\n" ) ;
 
     printf( "Array :\t" ) ;
@@ -32,18 +32,17 @@ int main () {
                 if ( value[i] % j == 0 && j != 1 ) {
                     printf( "#\t" ) ;
                     break ;
-                } else if ( j == 2 ) {
+                } else if ( j == 2 ) { // กรณีเป็นจำนวนเฉพาะ
                     printf( "%d\t" , value[i] ) ;
-                }
+                } // end if
 
-            }  
-        } 
-        if (value[i] % 2 == 0 && value[i] != 2 ){ // กรณีเลขคู่
+            } // end for
+        } else if (value[i] % 2 == 0 && value[i] != 2 ){ // กรณีเลขคู่
             printf( "#\t" );
-        } else if ( value[i] == 2 ) {
+        } else if ( value[i] == 2 ) { // กรณี 2
             printf( "%d\t" , value[i] ) ;
-        }  
-    }
+        }  // end if
+    } // end for
 
     return 0 ;
-}  
+}// end function
