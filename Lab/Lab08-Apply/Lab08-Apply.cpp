@@ -63,7 +63,7 @@ int main () {
 
     }else if (Position == 3) { // Senior Programmer
         Salary = BaseSalary3 ;
-          Salary = BaseSalary3 ;
+        Salary = BaseSalary3 ;
         if ( Year >= 1 && Year <= 3 ) { // กรณี 1-3 ปี
             ExpBonus = (BaseSalary3 * 10)/100 ;
             Salary += ExpBonus ;

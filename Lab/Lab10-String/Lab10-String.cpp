@@ -16,6 +16,7 @@ int main() {
     for( int i = 0 ; i < N ; i++ ){  // แปลงเป็นตัวพิมพ์เล็ก
         tempStr[i] = tolower( tempStr [i] ) ; 
         str [i] = tolower( tempStr [n-1] ) ;
+        printf( "%c" , str [i] ) ;
         n--;
     }// end for
     if( strcmp( tempStr , str ) == 0 ) {// เปรียบเทียบข้อความ

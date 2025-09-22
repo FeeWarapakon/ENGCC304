@@ -50,12 +50,12 @@ int main( void ) {
                 score -= 10 ;
 
                 if ( guess < low ) {
-                    printf( "\nSorry, the winning number is HIGHER than %d. (Score=%d)\n\n" , low , score ) ;
+                    printf( "\nSorry, the winning number is HIGHER than %d. (Score=%d)\n\n" , low , score ) ; 
                 } else if ( guess > high ) {
-                    printf( "\nSorry, the winning number is LOWER than %d. (Score=%d)\n\n" , high , score ) ;
+                    printf( "\nSorry, the winning number is LOWER than %d. (Score=%d)\n\n" , high , score ) ; 
                 } else if ( guess < target ) {
                     low = guess + 1 ;
-                    printf( "\nSorry, the winning number is HIGHER than %d. (Score=%d)\n\n" , guess , score ) ;
+                    printf( "\nSorry, the winning number is HIGHER than %d. (Score=%d)\n\n" , guess , score ) ; 
                 } else {
                     high = guess - 1 ;
                     printf( "\nSorry, the winning number is LOWER than %d. (Score=%d)\n\n" , guess , score ) ;

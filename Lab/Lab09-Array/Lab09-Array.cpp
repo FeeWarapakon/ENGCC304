@@ -35,7 +35,6 @@ int main () {
                 } else if ( j == 2 ) { // กรณีเป็นจำนวนเฉพาะ
                     printf( "%d\t" , value[i] ) ;
                 } // end if
-
             } // end for
         } else if (value[i] % 2 == 0 && value[i] != 2 ){ // กรณีเลขคู่
             printf( "#\t" );
