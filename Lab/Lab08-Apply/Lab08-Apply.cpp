@@ -8,7 +8,7 @@ int main () {
     int SpecialBonus = 0 ;
     int ExpBonus = 0 ;
 
-    printf( "Enter Position\nJunior Programmer=> 1\nMid-Level Programmer=> 2\nSenior Programmer=> 3\n" ) ;
+    printf( "Enter Position\nJunior Programmer => 1\nMid-Level Programmer => 2\nSenior Programmer => 3\n" ) ;
     scanf( "%d" , &Position ) ;
     
     printf( "Enter Year :" ) ;

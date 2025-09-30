@@ -8,23 +8,23 @@ int power( int base , int exp ) {
     return result ;
 }
 
-int isArmstrong( int num ) {
+int isArmstrong( int n ) {
     int temp , digits = 0 , sum = 0 , last ;
 
-    temp = num ;
+    temp = n ;
     while ( temp != 0 ) {
         temp /= 10 ;
         digits++ ;
     }
 
-    temp = num ;
+    temp = n ;
     while ( temp != 0 ) {
         last = temp % 10 ;
         sum += power( last , digits ) ;
         temp /= 10 ;
     }
 
-    if ( sum == num )
+    if ( sum == n )
         return 1 ;
     else
         return 0 ;
