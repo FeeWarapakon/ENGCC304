@@ -5,7 +5,7 @@ int main() {
     int Age;
 
     printf("Enter your name: ");
-    scanf("%49s", Name);   // จำกัดสูงสุด 49 ตัวอักษร
+    scanf("%49s", Name); 
 
     printf("Enter your age: ");
     scanf("%d", &Age);
@@ -15,4 +15,4 @@ int main() {
     printf("Age = %d\n", Age);
 
     return 0;
-}
+}// end function
