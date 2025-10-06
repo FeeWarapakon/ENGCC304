@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="หน้า-1" id="9u4dkL6BIXdXceC5r_wQ">
+    <mxGraphModel dx="1737" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="458" y="20" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-2" value="แสดงข้อความ &#39;Enter value:&#39;&#xa;และรับค่าตัวเลข Num" style="shape=parallelogram;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="373" y="110" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-3" value="รับค่าถูกต้องหรือไม่?" style="rhombus;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="438" y="210" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-4" value="แสดงข้อความ&#xa;&#39;Invalid input. Please enter an integer.&#39;" style="shape=parallelogram;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="230" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-5" value="Stop" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="168" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-6" value="แสดงข้อความ &#39;Series:&#39;" style="shape=parallelogram;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="423" y="320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-7" value="Num เป็นเลขคี่หรือไม่?" style="rhombus;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="438" y="420" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-8" value="เริ่ม i = 1&#xa;ถ้า i ≤ Num ให้แสดง i&#xa;แล้วเพิ่ม i ทีละ 2" style="rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="540" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-9" value="เริ่ม i = Num&#xa;ถ้า i ≥ 0 ให้แสดง i&#xa;แล้วลด i ทีละ 2" style="rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="578" y="540" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-10" value="Stop" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="458" y="670" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-11" edge="1" parent="1" source="sTwcdfVLb2dSljIrb5nr-1" target="sTwcdfVLb2dSljIrb5nr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-12" edge="1" parent="1" source="sTwcdfVLb2dSljIrb5nr-2" target="sTwcdfVLb2dSljIrb5nr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-13" value="False" style="entryX=0.945;entryY=0.338;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sTwcdfVLb2dSljIrb5nr-3" target="sTwcdfVLb2dSljIrb5nr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-14" edge="1" parent="1" source="sTwcdfVLb2dSljIrb5nr-4" target="sTwcdfVLb2dSljIrb5nr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-15" value="True" edge="1" parent="1" source="sTwcdfVLb2dSljIrb5nr-3" target="sTwcdfVLb2dSljIrb5nr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-16" edge="1" parent="1" source="sTwcdfVLb2dSljIrb5nr-6" target="sTwcdfVLb2dSljIrb5nr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-17" value="True" edge="1" parent="1" source="sTwcdfVLb2dSljIrb5nr-7" target="sTwcdfVLb2dSljIrb5nr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-18" value="False" edge="1" parent="1" source="sTwcdfVLb2dSljIrb5nr-7" target="sTwcdfVLb2dSljIrb5nr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-19" edge="1" parent="1" source="sTwcdfVLb2dSljIrb5nr-8" target="sTwcdfVLb2dSljIrb5nr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sTwcdfVLb2dSljIrb5nr-20" edge="1" parent="1" source="sTwcdfVLb2dSljIrb5nr-9" target="sTwcdfVLb2dSljIrb5nr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
