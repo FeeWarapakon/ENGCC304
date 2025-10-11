@@ -1,0 +1,513 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="หน้า-1" id="xlEqDrrbK4vvLJiw3ua9">
+    <mxGraphModel dx="3473" dy="2087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-1" value="เริ่มต้น (Main)" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-2" value="กำหนดโครงสร้าง Book&lt;br&gt;กำหนด library[100], count = 0, option" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="180" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-3" value="แสดงเมนู&lt;br&gt;1. เพิ่มหนังสือ&lt;br&gt;2. ค้นหาหนังสือ&lt;br&gt;3. แสดงทั้งหมด&lt;br&gt;4. ออก" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-4" value="รับค่า option" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="470" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-5" value="กำจัดค่า Enter ค้างใน Buffer (getchar())" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="410" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-6" value="option == 1 ?" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-7" target="8WySUXqcxAN1pHSd9YYG-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-7" value="เรียกใช้ Function addBook(library, &amp;count)" style="shape=mxgraph.flowchart.predefined_process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#cce5ff;strokeColor=#3c78d8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="560" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-8" value="option == 2 ?" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-9" target="8WySUXqcxAN1pHSd9YYG-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="644" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-9" value="เรียกใช้ Function searchBook(library, count)" style="shape=mxgraph.flowchart.predefined_process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#cce5ff;strokeColor=#3c78d8;" vertex="1" parent="1">
+          <mxGeometry x="640" y="560" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-10" value="option == 3 ?" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="860" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-11" target="8WySUXqcxAN1pHSd9YYG-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-11" value="เรียกใช้ Function showBooks(library, count)" style="shape=mxgraph.flowchart.predefined_process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#cce5ff;strokeColor=#3c78d8;" vertex="1" parent="1">
+          <mxGeometry x="830" y="560" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-12" value="option == 4 ?" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-13" value="แสดงข้อความ &quot;Goodbye!&quot;" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="560" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-14" value="หยุด (Stop)" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-15" target="8WySUXqcxAN1pHSd9YYG-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="680" />
+              <mxPoint x="541" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-15" value="แสดงข้อความ &quot;Invalid choice! Try again.&quot;" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="490" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-16" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-1" target="8WySUXqcxAN1pHSd9YYG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="160" as="sourcePoint" />
+            <mxPoint x="530" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-17" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-2" target="8WySUXqcxAN1pHSd9YYG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="240" as="sourcePoint" />
+            <mxPoint x="530" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-18" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-3" target="8WySUXqcxAN1pHSd9YYG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="330" as="sourcePoint" />
+            <mxPoint x="530" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-19" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-4" target="8WySUXqcxAN1pHSd9YYG-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="390" as="sourcePoint" />
+            <mxPoint x="530" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-20" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-5" target="8WySUXqcxAN1pHSd9YYG-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="450" as="sourcePoint" />
+            <mxPoint x="530" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-21" value="จริง" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-6" target="8WySUXqcxAN1pHSd9YYG-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="540" as="sourcePoint" />
+            <mxPoint x="530" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-22" value="เท็จ" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-6" target="8WySUXqcxAN1pHSd9YYG-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="510" as="sourcePoint" />
+            <mxPoint x="640" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-23" value="จริง" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-8" target="8WySUXqcxAN1pHSd9YYG-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="540" as="sourcePoint" />
+            <mxPoint x="720" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-24" value="เท็จ" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-8" target="8WySUXqcxAN1pHSd9YYG-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="510" as="sourcePoint" />
+            <mxPoint x="800" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-25" value="จริง" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-10" target="8WySUXqcxAN1pHSd9YYG-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="540" as="sourcePoint" />
+            <mxPoint x="910" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-26" value="เท็จ" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-10" target="8WySUXqcxAN1pHSd9YYG-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="510" as="sourcePoint" />
+            <mxPoint x="960" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-27" value="จริง" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-12" target="8WySUXqcxAN1pHSd9YYG-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="540" as="sourcePoint" />
+            <mxPoint x="1110" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-28" value="เท็จ" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-12" target="8WySUXqcxAN1pHSd9YYG-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="510" as="sourcePoint" />
+            <mxPoint x="1100" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-29" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-13" target="8WySUXqcxAN1pHSd9YYG-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="600" as="sourcePoint" />
+            <mxPoint x="1010" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-34" value="Function: addBook(arr, *cnt)" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="750" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-35" value="รับค่า Book ID: arr[*cnt].id" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="810" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-36" value="กำจัดค่า Enter (getchar())" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="870" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-37" value="รับค่า Title: arr[*cnt].title" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="930" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-38" value="ลบอักขระขึ้นบรรทัดใหม่ (&quot;\n&quot;)" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="990" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-39" value="รับค่า Author: arr[*cnt].author" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1050" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-40" value="ลบอักขระขึ้นบรรทัดใหม่ (&quot;\n&quot;)" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1110" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-41" value="รับค่า Year: arr[*cnt].year" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1170" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-42" value="กำจัดค่า Enter (getchar())" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1230" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-43" value="เพิ่มจำนวนหนังสือ: (*cnt)++" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1290" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-44" value="แสดงข้อความ &quot;Book successfully added!&quot;" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1350" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-45" value="สิ้นสุด (addBook)" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1410" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-46" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-34" target="8WySUXqcxAN1pHSd9YYG-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="790" as="sourcePoint" />
+            <mxPoint x="250" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-47" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-35" target="8WySUXqcxAN1pHSd9YYG-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="850" as="sourcePoint" />
+            <mxPoint x="250" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-48" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-36" target="8WySUXqcxAN1pHSd9YYG-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="910" as="sourcePoint" />
+            <mxPoint x="250" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-49" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-37" target="8WySUXqcxAN1pHSd9YYG-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="970" as="sourcePoint" />
+            <mxPoint x="250" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-50" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-38" target="8WySUXqcxAN1pHSd9YYG-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1030" as="sourcePoint" />
+            <mxPoint x="250" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-51" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-39" target="8WySUXqcxAN1pHSd9YYG-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1090" as="sourcePoint" />
+            <mxPoint x="250" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-52" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-40" target="8WySUXqcxAN1pHSd9YYG-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1150" as="sourcePoint" />
+            <mxPoint x="250" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-53" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-41" target="8WySUXqcxAN1pHSd9YYG-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1210" as="sourcePoint" />
+            <mxPoint x="250" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-54" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-42" target="8WySUXqcxAN1pHSd9YYG-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1270" as="sourcePoint" />
+            <mxPoint x="250" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-55" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-43" target="8WySUXqcxAN1pHSd9YYG-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1330" as="sourcePoint" />
+            <mxPoint x="250" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-56" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-44" target="8WySUXqcxAN1pHSd9YYG-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="1390" as="sourcePoint" />
+            <mxPoint x="250" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-57" value="Function: searchBook(arr, cnt)" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="750" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-58" value="กำหนดตัวแปร $t[100]$, $found = 0$" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="820" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-59" value="รับค่า Title เพื่อค้นหา ($t$)" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="630" y="890" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-60" value="ลบอักขระขึ้นบรรทัดใหม่ (&quot;\n&quot;)" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="960" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-61" value="เริ่ม Loop: $i = 0$" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1050" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-62" value="$i &lt; cnt$?" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-63" value="arr[i].title == t ?" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-64" value="แสดงรายละเอียดหนังสือ $arr[i]$" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-65" value="$found = 1$" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1240" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-66" value="ออกจาก Loop (break)" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-67" value="$i = i + 1$" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-68" value="!found ?" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1390" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-69" value="แสดงข้อความ &quot;Book not found.&quot;" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1400" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-70" value="สิ้นสุด (searchBook)" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1490" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-71" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-57" target="8WySUXqcxAN1pHSd9YYG-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="790" as="sourcePoint" />
+            <mxPoint x="720" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-72" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-58" target="8WySUXqcxAN1pHSd9YYG-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="850" as="sourcePoint" />
+            <mxPoint x="720" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-73" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-59" target="8WySUXqcxAN1pHSd9YYG-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="910" as="sourcePoint" />
+            <mxPoint x="720" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-74" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-60" target="8WySUXqcxAN1pHSd9YYG-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="970" as="sourcePoint" />
+            <mxPoint x="720" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-75" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-61" target="8WySUXqcxAN1pHSd9YYG-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="1030" as="sourcePoint" />
+            <mxPoint x="720" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-76" value="จริง" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-62" target="8WySUXqcxAN1pHSd9YYG-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1080" as="sourcePoint" />
+            <mxPoint x="810" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-77" value="เท็จ" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-62" target="8WySUXqcxAN1pHSd9YYG-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="1110" as="sourcePoint" />
+            <mxPoint x="720" y="1270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-78" value="จริง" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-63" target="8WySUXqcxAN1pHSd9YYG-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="1080" as="sourcePoint" />
+            <mxPoint x="960" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-79" value="เท็จ" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-63" target="8WySUXqcxAN1pHSd9YYG-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="1110" as="sourcePoint" />
+            <mxPoint x="860" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-80" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-64" target="8WySUXqcxAN1pHSd9YYG-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="1110" as="sourcePoint" />
+            <mxPoint x="1040" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-81" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-65" target="8WySUXqcxAN1pHSd9YYG-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="1170" as="sourcePoint" />
+            <mxPoint x="1040" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-82" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="1230" as="sourcePoint" />
+            <mxPoint x="730" y="1380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="1380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-83" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-67" target="8WySUXqcxAN1pHSd9YYG-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="1150" as="sourcePoint" />
+            <mxPoint x="770" y="1200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-84" value="จริง" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-68" target="8WySUXqcxAN1pHSd9YYG-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="1300" as="sourcePoint" />
+            <mxPoint x="820" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-85" value="เท็จ" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-68" target="8WySUXqcxAN1pHSd9YYG-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="1330" as="sourcePoint" />
+            <mxPoint x="720" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-86" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.55;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-69" target="8WySUXqcxAN1pHSd9YYG-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1320" as="sourcePoint" />
+            <mxPoint x="730" y="1380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="1470" />
+              <mxPoint x="750" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-87" value="Function: showBooks(arr, cnt)" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="740" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-88" value="$cnt == 0$?" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="800" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-89" value="แสดงข้อความ &quot;No books available.&quot;" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="810" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-90" value="เริ่ม Loop: $i = 0$" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="880" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-91" value="$i &lt; cnt$?" style="shape=mxgraph.flowchart.decision;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="950" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-92" value="แสดงรายละเอียดหนังสือ $arr[i]$" style="shape=mxgraph.flowchart.data;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="950" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-93" value="$i = i + 1$" style="shape=mxgraph.flowchart.process;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1080" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-94" value="สิ้นสุด (showBooks)" style="shape=mxgraph.flowchart.terminator;whiteSpace=wrap;html=1;fontFamily=Inter;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1280" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-95" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-87" target="8WySUXqcxAN1pHSd9YYG-88">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="780" as="sourcePoint" />
+            <mxPoint x="1330" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-96" value="จริง" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-88" target="8WySUXqcxAN1pHSd9YYG-89">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="830" as="sourcePoint" />
+            <mxPoint x="1420" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-97" value="เท็จ" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-88" target="8WySUXqcxAN1pHSd9YYG-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="860" as="sourcePoint" />
+            <mxPoint x="1330" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-98" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-89">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="850" as="sourcePoint" />
+            <mxPoint x="1340" y="1278" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1690" y="1240" />
+              <mxPoint x="1360" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-99" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-90" target="8WySUXqcxAN1pHSd9YYG-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="920" as="sourcePoint" />
+            <mxPoint x="1330" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-100" value="จริง" style="endArrow=classic;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-91" target="8WySUXqcxAN1pHSd9YYG-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="980" as="sourcePoint" />
+            <mxPoint x="1420" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-101" value="เท็จ" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-91" target="8WySUXqcxAN1pHSd9YYG-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="1010" as="sourcePoint" />
+            <mxPoint x="1330" y="1140" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-102" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-92" target="8WySUXqcxAN1pHSd9YYG-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="1010" as="sourcePoint" />
+            <mxPoint x="1500" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-103" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-93" target="8WySUXqcxAN1pHSd9YYG-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1500" y="1040" as="sourcePoint" />
+            <mxPoint x="1380" y="980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1380" y="1100" />
+              <mxPoint x="1380" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-104" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="515" y="640" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8WySUXqcxAN1pHSd9YYG-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.095;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8WySUXqcxAN1pHSd9YYG-104" target="8WySUXqcxAN1pHSd9YYG-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="655" />
+              <mxPoint x="350" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
