@@ -1,0 +1,202 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="หน้า-1" id="6m4gRkSHyFxKrorBwqsQ">
+    <mxGraphModel dx="2316" dy="1391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-1" target="GXxGiFHpY3eoZ4yyFiNN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-1" value="เริ่มโปรแกรม" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="40" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-2" target="GXxGiFHpY3eoZ4yyFiNN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-2" value="ประกาศตัวแปร filename[100]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-6" target="GXxGiFHpY3eoZ4yyFiNN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-6" value="แสดงข้อความ &quot;Enter file name:&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="240" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-8" target="GXxGiFHpY3eoZ4yyFiNN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-8" value="รับค่าชื่อไฟล์จากผู้ใช้เก็บใน filename" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-10" target="GXxGiFHpY3eoZ4yyFiNN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-10" value="เรียกฟังก์ชัน countWordsInFile(filename)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="306" y="460" width="216" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-14" target="GXxGiFHpY3eoZ4yyFiNN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-14" value="แสดง &quot;Total number of words in &#39;filename&#39; : totalWords words&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="570" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-16" value="จบโปรแกรม" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379" y="680" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-18" target="GXxGiFHpY3eoZ4yyFiNN-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-18" value="เริ่มโปรแกรม&lt;div&gt;countWordsInFile(filename)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-19" target="GXxGiFHpY3eoZ4yyFiNN-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-19" value="เปิดไฟล์ filename ด้วย fopen() mode &quot;r&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-21" target="GXxGiFHpY3eoZ4yyFiNN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-21" target="GXxGiFHpY3eoZ4yyFiNN-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="305" />
+              <mxPoint x="980" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-21" value="file == NULL ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="260" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-25" target="GXxGiFHpY3eoZ4yyFiNN-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-25" value="แสดง &quot;ไม่สามารถเปิดไฟล์ filename ได้&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="410" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-27" value="ส่งค่ากลับ -1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-29" value="&amp;nbsp;True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="845" y="358" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-31" target="GXxGiFHpY3eoZ4yyFiNN-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-31" value="กำหนด words = 0, inWord = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-34" target="GXxGiFHpY3eoZ4yyFiNN-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-34" target="GXxGiFHpY3eoZ4yyFiNN-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-34" value="อ่านตัวอักษร ch = fgetc(file) จนถึง EOF ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="780" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-36" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="910" y="270" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-37" target="GXxGiFHpY3eoZ4yyFiNN-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-37" value="ปิดไฟล์ fclose(file)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-39" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="818" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="848.7692495492788" y="1800" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="1800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-40" value="ส่งค่ากลับ words" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-42" target="GXxGiFHpY3eoZ4yyFiNN-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-42" target="GXxGiFHpY3eoZ4yyFiNN-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-42" value="ch ไม่ใช่เว้นวรรค ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="980" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-44" value="&lt;div&gt;True&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="845" y="928" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-45" target="GXxGiFHpY3eoZ4yyFiNN-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-45" target="GXxGiFHpY3eoZ4yyFiNN-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="1215" />
+              <mxPoint x="1170" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-45" value="inWord == 0 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="1160" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-47" value="True" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="855" y="1120" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-48" target="GXxGiFHpY3eoZ4yyFiNN-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-48" value="words++ , inWord = 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-50" value="&lt;span style=&quot;text-align: left; text-wrap-mode: wrap;&quot;&gt;True&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="845" y="1290" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-51" target="GXxGiFHpY3eoZ4yyFiNN-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-51" value="อ่านตัวอักษรถัดไป" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-53" target="GXxGiFHpY3eoZ4yyFiNN-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-53" value="ปิดไฟล์ fclose(file)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-55" target="GXxGiFHpY3eoZ4yyFiNN-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-55" value="ส่งค่ากลับ words" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-57" value="จบโปรแกรม&lt;br&gt;&lt;div&gt;countWordsInFile(filename)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1820" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-59" target="GXxGiFHpY3eoZ4yyFiNN-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-59" value="inWord = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-62" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="915" y="988" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GXxGiFHpY3eoZ4yyFiNN-64" target="GXxGiFHpY3eoZ4yyFiNN-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-64" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="835" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GXxGiFHpY3eoZ4yyFiNN-70" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1180" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
