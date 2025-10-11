@@ -37,6 +37,5 @@ int main() {
     int totalWords = countWordsInFile( filename ) ;
         printf( "Total number of words in '%s' : %d words\n" , filename, totalWords ) ;
 
-
     return 0 ;
 }//end function
