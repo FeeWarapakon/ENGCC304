@@ -1,28 +1,56 @@
 #include <stdio.h>
 
-void swapNumbers( int *a, int *b ) {
-    int *arr[2] = {a, b} ;
-    for( int i = 0 ; i < 1 ; i++ ) {
-        int temp = *arr[i] ;
-        *arr[i] = *arr[i+1] ;
-        *arr[i+1] = temp ;
-    }
-}
+// ประกาศฟังก์ชันล่วงหน้า
+int findMin( int a[] , int size ) ;
+int findMax( int a[] , int size ) ;
 
 int main() {
-    int num1, num2 ;
-    int *ptr1 = &num1 , *ptr2 = &num2 ;
+    int a[100] ;
+    int count = 0 ;
+    char ch ;
 
-    printf( "Enter num1 : " ) ;
-    scanf( "%d" , &num1 ) ;
-    printf( "Enter num2 : " ) ;
-    scanf( "%d" , &num2 ) ;
+    printf( "Enter value:\n" ) ;
 
-    printf( "Before swap (num1 & num2) : %d, %d\n" , num1, num2 ) ;
+    // รับค่าจากผู้ใช้ในบรรทัดเดียว
+    do {
+        scanf( "%d" , &a[count] ) ;
+        count++ ;
+        ch = getchar() ;
+    } while ( ch != '\n' && ch != EOF ) ;
 
-    swapNumbers( ptr1, ptr2 ) ;
+    // แสดงผล Index
+    printf( "Index: " ) ;
+    for ( int i = 0 ; i < count ; i++ ) {
+        printf( "%d " , i ) ;
+    }
 
-    printf( "After swap (num1 & num2) : %d, %d\n ", num1, num2 ) ;
+    printf( "\nArray: " ) ;
+    for ( int i = 0 ; i < count ; i++ ) {
+        printf( "%d " , a[i] ) ;
+    }
+
+    printf( "\n\nMin : %d\n" , findMin( a, count ) ) ;
+    printf( "Max : %d\n" , findMax( a, count ) ) ;
 
     return 0 ;
+}
+
+// ฟังก์ชันหาค่าน้อยที่สุด
+int findMin( int a[], int size ) {
+    int min = a[0] ;
+    for ( int i = 1 ; i < size ; i++ ) {
+        if ( a[i] < min )
+            min = a[i] ;
+    }
+    return min ;
+}
+
+// ฟังก์ชันหาค่ามากที่สุด
+int findMax( int a[] , int size ) {
+    int max = a[0] ;
+    for ( int i = 1 ; i < size ; i++ ) {
+        if ( a[i] > max )
+            max = a[i] ;
+    }
+    return max ;
 }//end function
