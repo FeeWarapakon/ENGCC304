@@ -15,7 +15,7 @@ int countWordsInFile( const char *filename ) {
     char ch ;
 
     while (( ch = fgetc( file ) ) != EOF ) {
-        if ( !isspace( ch ) ) {
+        if ( ! isspace( ch ) ) {
             if ( !inWord ) { 
                 words++ ;    // เริ่มคำใหม่
                 inWord = 1 ; 
